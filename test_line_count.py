@@ -27,5 +27,5 @@ def test_line_count():
     os.rename('file.txt.bak', 'file.txt')
   except FileNotFoundError:
     pass
-
+  
   assert count == lines
