@@ -6,4 +6,5 @@ def line_count():
     # For every line in file it adds 1 to the total number of lines
         for _ in file:
             lines += 1
+    # Returns results
     return lines
